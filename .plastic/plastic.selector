@@ -1,0 +1,4 @@
+repository "Legend_of_Warriors@goldsprite@cloud.cn"
+  path "/"
+    smartbranch "/main/230626分支/V3/V3.0.x/V3.1.x" changeset "73"    
+     

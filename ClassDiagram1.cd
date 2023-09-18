@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityListener" Collapsed="true">
+    <Position X="23.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQAAAAAACAAAAAAIAAABACAEADAABAAAAQACAIAAAg=</HashCode>
+      <FileName>Assets\DebugScripts\EntityListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.Attacker" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Now\Attacker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.CameraController" Collapsed="true">
+    <Position X="25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgAgIAAAAEAAAAEAAAAAIAAJAAAAAQAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Now\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityAnimBehaviours" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAACCAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\EntityAnimBehaviours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.BoarStateMachine" Collapsed="true">
+    <Position X="0.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\StateMachines\BoarStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityStateMachine" Collapsed="true">
+    <Position X="1.75" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AASAAAJQAIAAAAAQQAAAAAAAIACAABAAAQABEAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\StateMachines\EntityStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.PlayerStateMachine" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAIAAAAAAAAAAAAAAIECAEAAAEAAAAIAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\StateMachines\PlayerStateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.StateMachine" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAqAAgAAAIAAAACAQIAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\StateMachines\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityAttackState" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityAttackState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityDeathState" Collapsed="true">
+    <Position X="4" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityDeathState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityHurtState" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityHurtState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityIdleState" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityIdleState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityJumpState" Collapsed="true">
+    <Position X="15" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAgAAAAASCAAAAAAAAEABAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityJumpState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityMoveState" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAACAAAAABAAAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityMoveState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityRunState" Collapsed="true">
+    <Position X="18" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\EntityStates\EntityRunState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.PlayerJumpState" Collapsed="true">
+    <Position X="15.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAIAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\PlayerStates\PlayerJumpState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.PlayerLandState" Collapsed="true">
+    <Position X="6.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\PlayerStates\PlayerLandState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.State&lt;T&gt;" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAABAAAAIAEAAAIIAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\States\State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.InputController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAAAAAAAAAAAAADAICEAAAFABCEg=</HashCode>
+      <FileName>Assets\Scripts\Now\InputController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.EntityProperties" Collapsed="true">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgRACACMAIAAgAAEgAAAFAABAAAAAUAQAABUgAAABEA=</HashCode>
+      <FileName>Assets\Scripts\Now\Properties\EntityProperties.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.PlayerProperties" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\Properties\PlayerProperties.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoarAI" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAgAAAgMAAAAQAQAIAAAAAAAAAAAAAAABAFABAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\FSM\AI\BoarAI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SlopeDetector" Collapsed="true">
+    <Position X="23.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQSAAAAAAAAACEQAAAAAAAEAAAABAAgAAAAABAAAgA=</HashCode>
+      <FileName>Assets\Scripts\Now\SlopeDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assets.Scripts.Now.IsGroundCheck" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAIAAAACAAAAAAAACQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\IsGroundCheck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.IEntityBehaviour" Collapsed="true">
+    <Position X="20.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFABAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\Interfaces\IEntityBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.IEntityProperties" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Scripts\Now\Interfaces\IEntityProperties.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.ILivingBeing" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACACAAAAAAAAAgAAAEAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\Interfaces\ILivingBeing.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.IMovable" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAABAABAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\Interfaces\IMovable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="com.goldsprite.LegendOfWarriors3_StateMachineLearn.IState" Collapsed="true">
+    <Position X="23.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAIAEAAAIIAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Now\Interfaces\IState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
